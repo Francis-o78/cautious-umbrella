@@ -1,0 +1,53 @@
+.banner {
+  width: 100%;
+  height: 200px;
+  background-color: #f11c80;
+  border: 25px;
+  /* margin: 10px; */
+}
+/* specific dimensions and parameters for banner-defined class */
+/* repeats same parameters inserted in html file but in css */
+
+.content {
+  width: 100%;
+  height: 600px;
+  background-color: #ad1cc7;
+}
+/* specific dimensions and parameters for content portion of webpage */
+/* again repeats same parameters stated in html but in css */
+
+.button, .button2, .button3, .button4, .button5, .button6, .button7, .button8, .button9 {
+  background-color: #3565e8;
+  border: none;
+  color: rgb(233, 17, 179);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /* specific definitions and parameters for buttons */
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  /* box-shadow: 5px 5px 5px grey; */
+  filter: drop-shadow(0 0 0.75rem rgb(238, 12, 12));
+  border-radius: 5px;
+}
+/* specifies parameters for the button class
+various tags outlined here establish color, size, centered in file (margin left/right), and rounded edges (border radius) */
+
+.mybutton:hover {
+  background-color: #f05914;
+  transform: translateY(1px);
+  }
+  /* this allows for a hover effect for the mybutton class... */
+
+@media screen and (max-width: 897px) {
+  /*  */
+
+  .banner,
+  .content {
+    background-color: red;
+    font-size: 50px;
+    /* width: 100%; The width is 100%, when the viewport is 800px or smaller */
+  }
+}

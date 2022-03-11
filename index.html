@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<!-- establishes what kind of file/doc we are using -->
+
+<head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <!-- <script>
+        // enters into JS portion of html file to run console check
+        // this function logs a line of text in the browser
+        console.log("hello world!");
+        // alert("welcome to the most obnoxious function in javascript...");
+    </script> -->
+    <link rel="stylesheet" href="_css\myStyle.css">
+    <script src="_js/myJavaScript.js"></script>
+    <!-- connects css styling file to html -->
+    <!-- opens head tag with basic formatting; opens CSS portin of HTML doc to style specific portions -->
+    <style>
+        h1 {
+            color: rgb(14, 2, 15);
+        }
+
+        /* defines colors for specific parts of html page */
+
+        .banner {
+            width: 100%;
+            height: 200px;
+            background-color: #4422BF;
+            border: 25px;
+            /* margin: 10px; */
+        }
+
+        /* defines parameters and specifics behind top banner of page */
+
+        .content {
+            width: 100%;
+            height: 600px;
+            background-color: #9175F4;
+        }
+
+        /* defines parameters for main portion of page */
+    </style>
+</head>
+
+<!-- the body tag is everything I see in the browser -->
+
+<body onload="init()">
+    <div class="banner">
+        <h1>MY TEXT THAT I ADDED</h1>
+        <div class="content">
+            <!-- creates division class for section of webpage -->
+            <!-- creates two division classes to add parameters too using css -->
+            <p style="color:blue">Content Text</p>
+            <a href="https://bcp.org"> <img width="250px" src="_images\optimusPrime.jfif" alt="My test image">
+                <!-- says where link will take you (picture is a button) and inserts optimus picture -->
+                <a href="https://bcp.org"> <img width="250px"
+                        src="https://images.ctfassets.net/rporu91m20dc/4K7fzLucSAdDSrz9tQSRuv/b36b1f29e7b1c50ab3dc968a8335669b/Starfield_StarfieldHero_EndlessPursuit.png"
+                        alt="My test image">
+                    <!-- inserts second image through other method, not using downloaded pic to file path but rather using internet -->
+                </a>
+        </div>
+
+        <div class="navigation">
+            <button class="button">Activities</button>
+            <button class="button2">Talents</button>
+            <button class="button3">Service</button>
+            <button class="button4">Innovation</button>
+            <button class="button5">Fundraisers</button>
+            <button class="button6">Peronality</button>
+            <button class="button7">Design</button>
+            <button class="button8">Controversy</button>
+            <button class="button9">Debate</button>
+        </div>
+
+        <!-- creates button div class for rounded, colored buttons - to be styled in css -->
+</body>
+</html>

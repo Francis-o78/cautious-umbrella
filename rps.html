@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- first main heading of html page -->
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <script src="_js/rps.js"></script>
+    <link rel="stylesheet" href="_css/rpsStyle.css">
+    <!-- links JS and CSS files to html page -->
+</head>
+
+<body>
+    <h1 style="color: red;">
+        Welcome to Rock Paper Scissors
+        <!-- This is now on github!! -->
+    </h1>
+    <!-- <input type="text" placeholder="Type " id="inputId"> -->
+    <button type="button" onclick="userChoice('rock');">Rock</button>
+    <button type="button" onclick="userChoice('paper');">Paper</button>
+    <button type="button" onclick="userChoice('scissors');">Scissors</button>
+    <!-- creates necessary buttons requesting player for input -->
+    <p>Player 1</p>
+    <div id="board">
+        <div id="player"></div>
+        <p>Computer</p>
+        <div id="cpu"></div>
+    </div>
+    <!-- establishes specific section divisions for the respective player and cpu bars -->
+</body>
+
+
+</html>
